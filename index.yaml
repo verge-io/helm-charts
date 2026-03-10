@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  vergeos-cloud-controller-manager:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-03-10T12:34:18.613157-04:00"
+    description: VergeOS Cloud Controller Manager for Kubernetes
+    digest: cdfe4fb94aa5f57c4b2f397da3c22b332ab218b569f6c7555bfbac8f3fe8be9b
+    name: vergeos-cloud-controller-manager
+    type: application
+    urls:
+    - https://verge-io.github.io/helm-charts/vergeos-cloud-controller-manager-0.1.0.tgz
+    version: 0.1.0
+  vergeos-csi:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-03-10T12:34:18.613396-04:00"
+    description: VergeOS CSI Driver for Kubernetes — NAS (NFS/EXT4) and Block (VM
+      drive) storage
+    digest: 8f43873029c11bbebf84e7bca7f134c4ca872189fbeb157275665e03b9f1d0d5
+    name: vergeos-csi
+    type: application
+    urls:
+    - https://verge-io.github.io/helm-charts/vergeos-csi-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-03-10T12:34:18.612627-04:00"
