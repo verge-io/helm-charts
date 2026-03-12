@@ -3,7 +3,7 @@ entries:
   vergeos-cloud-controller-manager:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-03-12T15:58:27.254567-04:00"
+    created: "2026-03-12T16:03:35.398316-04:00"
     description: VergeOS Cloud Controller Manager for Kubernetes
     digest: 5cebe3e47f97967ff700a71da87fe6547a451091e614f61025f75697698cc8cb
     name: vergeos-cloud-controller-manager
@@ -14,7 +14,7 @@ entries:
   vergeos-csi:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-03-12T15:58:27.255149-04:00"
+    created: "2026-03-12T16:03:35.398678-04:00"
     description: VergeOS CSI Driver for Kubernetes — NAS (NFS/EXT4) and Block (VM
       drive) storage
     digest: 611e8f281d0881d83903ed1d82fef20c8690017c4775309a33217f604af33031
@@ -23,4 +23,32 @@ entries:
     urls:
     - https://verge-io.github.io/helm-charts/vergeos-csi-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-12T15:58:27.254149-04:00"
+  vergeos-node-driver:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/display-name: VergeOS Node Driver
+      catalog.cattle.io/kube-version: '>= 1.16.0-0'
+      catalog.cattle.io/namespace: cattle-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.10.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-03-12T16:03:35.398808-04:00"
+    description: VergeOS Node Driver and UI Extension for Rancher
+    digest: e8e9902566625c244ed9720366300c5181fcf5a446a8af5f894f44f8dc8d0243
+    home: https://github.com/verge-io
+    maintainers:
+    - name: Verge.io
+    name: vergeos-node-driver
+    sources:
+    - https://github.com/verge-io/docker-machine-driver-vergeos
+    - https://github.com/verge-io/ui-extension-vergeos
+    type: application
+    urls:
+    - https://verge-io.github.io/helm-charts/vergeos-node-driver-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-03-12T16:03:35.397613-04:00"
