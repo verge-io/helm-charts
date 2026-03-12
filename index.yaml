@@ -3,7 +3,7 @@ entries:
   vergeos-cloud-controller-manager:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-03-12T12:49:05.576159-04:00"
+    created: "2026-03-12T14:08:02.041531-04:00"
     description: VergeOS Cloud Controller Manager for Kubernetes
     digest: cdfe4fb94aa5f57c4b2f397da3c22b332ab218b569f6c7555bfbac8f3fe8be9b
     name: vergeos-cloud-controller-manager
@@ -14,7 +14,7 @@ entries:
   vergeos-csi:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-03-12T12:49:05.576485-04:00"
+    created: "2026-03-12T14:08:02.041931-04:00"
     description: VergeOS CSI Driver for Kubernetes — NAS (NFS/EXT4) and Block (VM
       drive) storage
     digest: 8f43873029c11bbebf84e7bca7f134c4ca872189fbeb157275665e03b9f1d0d5
@@ -37,9 +37,9 @@ entries:
       catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-12T12:49:05.576872-04:00"
+    created: "2026-03-12T14:08:02.042067-04:00"
     description: VergeOS Node Driver and UI Extension for Rancher
-    digest: 0a625fa5225cb9a9f5911072b87051fc712542d212fe08e54259b8276228c90e
+    digest: e8e9902566625c244ed9720366300c5181fcf5a446a8af5f894f44f8dc8d0243
     home: https://github.com/verge-io
     maintainers:
     - name: Verge.io
@@ -49,22 +49,6 @@ entries:
     - https://github.com/verge-io/ui-extension-vergeos
     type: application
     urls:
-    - https://verge-io.github.io/helm-charts/vergeos-node-driver-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2026-03-12T12:49:05.576741-04:00"
-    description: VergeOS Node Driver for Rancher
-    digest: 0aed903704572b445a428a92e3682eba7a9558d230b3890f3a825d6b434e522b
-    home: https://github.com/verge-io/ui-driver-vergeos
-    maintainers:
-    - name: Verge.io
-    name: vergeos-node-driver
-    sources:
-    - https://github.com/verge-io/docker-machine-driver-vergeos
-    - https://github.com/verge-io/ui-driver-vergeos
-    type: application
-    urls:
     - https://verge-io.github.io/helm-charts/vergeos-node-driver-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-12T12:49:05.575385-04:00"
+generated: "2026-03-12T14:08:02.040739-04:00"
