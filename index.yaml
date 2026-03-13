@@ -9,9 +9,9 @@ entries:
       catalog.cattle.io/rancher-version: '>= 2.10.0-0'
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-03-12T16:40:17.783801-04:00"
+    created: "2026-03-13T09:38:41.187983-04:00"
     description: VergeOS Cloud Controller Manager for Kubernetes
-    digest: 75deadf7dde210d01311d0528b96ea2fa320afd36c751fe4d8157943dc0676ab
+    digest: e86963c6d646138c7146e3008535c183df074c880f183697825b812a7b34edf1
     home: https://github.com/verge-io
     icon: file://icon.svg
     maintainers:
@@ -30,10 +30,10 @@ entries:
       catalog.cattle.io/rancher-version: '>= 2.10.0-0'
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-03-12T16:40:17.784006-04:00"
+    created: "2026-03-13T09:38:41.188387-04:00"
     description: VergeOS CSI Driver for Kubernetes — NAS (NFS/EXT4) and Block (VM
       drive) storage
-    digest: 6140dd57b353bf8064068d209eea97fccbc6dab7e1c9b1a7b5d018900706562d
+    digest: 037acfd8f4e6fe4e6a930cb4c85f95c5cf3d74efa178ef867e57d7246a5462f1
     home: https://github.com/verge-io
     icon: file://icon.svg
     maintainers:
@@ -57,7 +57,7 @@ entries:
       catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-03-12T16:40:17.784127-04:00"
+    created: "2026-03-13T09:38:41.188851-04:00"
     description: VergeOS Node Driver and UI Extension for Rancher
     digest: a7c62546991de17a7e87f62a4329fb2e4d42ec34edb1402a2ca0333294fb72fb
     home: https://github.com/verge-io
@@ -72,4 +72,4 @@ entries:
     urls:
     - https://verge-io.github.io/helm-charts/vergeos-node-driver-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-12T16:40:17.783314-04:00"
+generated: "2026-03-13T09:38:41.187478-04:00"
